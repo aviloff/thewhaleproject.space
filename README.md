@@ -1,2 +1,6 @@
 # twp.space
- Twp website
+ TWP website
+
+images are loaded from imgur.com
+
+pdfs, zips are not updated here
