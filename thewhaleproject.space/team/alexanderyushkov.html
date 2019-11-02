@@ -48,7 +48,7 @@
             </div>
          </div>
       </section>
-      <section class="section section-black" style="padding-top: 30px">
+      <section class="section section-black" style="padding:30px 0 0 0">
          <div class="container cv">
             <div data-os-animation="fadeIn" data-os-animation-delay="0.2s" class="col-md-4 col-sm-6 os-animation" style="text-align: center!important">
                <img src="https://i.imgur.com/Xhf5pot.jpg" width="300" alt="Whale Project Team" height="400"/>
@@ -88,7 +88,7 @@
 
 
       </section>
-      <section class="section section-black no-padding">
+      <section class="section section-black" style="padding: 0 0 50px 0">
          <div class="container">
             <div hostcms:id="19" hostcms:field="editInPlace" hostcms:entity="document" hostcms:type="wysiwyg">
 
@@ -124,93 +124,11 @@
                </ul>
             </div>
          </div>
-         <div style="display: none"><a href="http://www.hostcms.ru/" target="_blank">Движок сайта HostCMS</a></div>
+
       </footer>
       <script type="text/javascript" src="/assets/personal/js/packages.js"></script>
       <script type="text/javascript" src="/assets/personal/js/theme.js"></script>
-      <script type="text/javascript" src="/assets/personal/js/map.js"></script>
-      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-      <script type="text/javascript" src="/assets/personal/js/jquery.themepunch.tools.min.js"></script>
-      <script type="text/javascript" src="/assets/personal/js/jquery.themepunch.revolution.min.js"></script>
-      <script type="text/javascript" src="/assets/personal/js/slider-initialization.js"></script>
-      <script type="text/javascript" src="/assets/personal/js/revslider-extensions/revolution.extension.slideanims.min.js"></script>
-      <script type="text/javascript" src="/assets/personal/js/revslider-extensions/revolution.extension.layeranimation.min.js"></script>
-      <script type="text/javascript" src="/assets/personal/js/revslider-extensions/revolution.extension.navigation.min.js"></script>
-      <script type="text/javascript" src="/assets/personal/js/expromptum.min.js"></script>
-      <script type="application/ld+json">
-         {
-          "@context": "http://www.twp.space",
-           "@type": "Organization",
-           "url" : "https://www.thewhaleproject.com",
-           "logo" : "https://i.imgur.com/qPqkBxX.jpg",
-           "address": {
-             "@type": "PostalAddress",
-             "addressLocality": "Venice, Moscow, London",
-             "postalCode": "",
-             "streetAddress": ""
-           },
-           "name": "The Whale Project",
-           "description": "Multimedia Music Art Project"
-         }
-
-      </script>
-      <script>
-         xP();
-
-         function xp_init_uncompleted_fields(){
-             xP('.uncompleted_fields .fields').each(function(){
-                 var fields = this,
-                     $parent = fields.$container.parent(),
-                     list = new xP.list(),
-                     label_id = '$' + fields.uncompleted_type + '_label';
-
-                 fields.root().change(function(){
-                     var show = false;
-
-                     list.each(function(){
-                         this._[label_id].hide();
-                     });
-
-                     this._param(fields.uncompleted_type)
-                         .each(function(){
-                             if(!this.$label){
-                                 return;
-                             }
-
-                             if(list.index(this) < 0){
-                                 var field = this;
-
-                                 list.append(this);
-
-                                 this._[label_id] = $(
-                                     ' <span class="pseudo_link underline">'
-                                     + this.$label.text() + '</span>'
-                                 ).appendTo(fields.$element).click(function(){
-                                     field.focus();
-                                 });
-                             }
-
-                             this._[label_id].show();
-
-                             show = true;
-                         });
-
-                     if(show){
-                         $parent.show();
-                     }else{
-                         $parent.hide();
-                     }
-                 });
-             });
-         };
-
-         xp_init_uncompleted_fields();
-      </script>
    </body>
 </html>
-<link rel="stylesheet" type="text/css" href="/modules/skin/default/frontend/bootstrap-iso.css?578285561" />
-<link rel="stylesheet" type="text/css" href="/modules/skin/default/frontend/frontend.css?578285561" />
-<link rel="stylesheet" type="text/css" href="/modules/skin/bootstrap/js/toastr/toastr.css?578285561" />
-<script src="/modules/skin/default/frontend/jquery.min.js"></script><script src="/modules/skin/default/frontend/jquery-ui.min.js" type="text/javascript"></script><script src="/admin/wysiwyg/jquery.tinymce.min.js" type="text/javascript"></script><script src="/modules/skin/bootstrap/js/colorpicker/jquery.minicolors.min.js" type="text/javascript"></script><script src="/modules/skin/bootstrap/js/jquery.slimscroll.js" type="text/javascript"></script><script src="/modules/skin/bootstrap/js/toastr/toastr.js" type="text/javascript"></script><script type="text/javascript">var hQuery = $.noConflict(true);</script><script src="/modules/skin/default/frontend/frontend.js" type="text/javascript"></script>
 <script src="/assets/fb/jquery-3.3.1.min.js"></script>
 <script src="/assets/fb/dist/jquery.fancybox.min.js"></script>

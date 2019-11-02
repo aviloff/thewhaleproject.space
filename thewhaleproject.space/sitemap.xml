@@ -40,7 +40,7 @@
 <url>
   <loc>http://thewhaleproject.space/contact.html</loc>
   <lastmod>2018-10-04T15:32:39+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.7</priority>
 </url>
 <url>
   <loc>http://thewhaleproject.space/sviatoslavavilov.html</loc>
@@ -69,6 +69,11 @@
 </url>
 <url>
   <loc>http://thewhaleproject.space/team/fabiomorreale.html</loc>
+  <lastmod>2018-10-04T15:32:39+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://thewhaleproject.space/team/anitaclaudiaguadin.html</loc>
   <lastmod>2018-10-04T15:32:39+00:00</lastmod>
   <priority>0.64</priority>
 </url>
