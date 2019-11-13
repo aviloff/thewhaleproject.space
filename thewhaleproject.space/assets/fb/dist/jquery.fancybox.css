@@ -415,7 +415,8 @@ body.compensate-for-scrollbar {
 /* Caption */
 .fancybox-caption {
   bottom: 0;
-  color: #fff;
+  /* color: #fff; */
+  color: #cccccc;
   font-size: 14px;
   font-weight: 400;
   left: 0;
@@ -438,7 +439,8 @@ body.compensate-for-scrollbar {
   z-index: -1; }
 
 .fancybox-caption::after {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+/* border-bottom: 1px solid rgba(255, 255, 255, 0.3); */
   content: '';
   display: block;
   left: 44px;

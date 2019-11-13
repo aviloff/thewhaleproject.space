@@ -64,8 +64,8 @@
     // Buttons will be created using templates from `btnTpl` option
     // and they will be placed into toolbar (class="fancybox-toolbar"` element)
     buttons: [
-      "zoom",
-      //"share",
+      // "zoom",
+      "share",
       //"slideShow",
       //"fullScreen",
       //"download",
@@ -77,7 +77,7 @@
     idleTime: 3,
 
     // Disable right-click and use simple image protection for images
-    protect: false,
+    protect: true,
 
     // Shortcut to make content "modal" - disable keyboard navigtion, hide buttons, etc
     modal: false,
@@ -154,7 +154,7 @@
     transitionEffect: "fade",
 
     // Duration in ms for transition animation
-    transitionDuration: 366,
+    transitionDuration: 386,
 
     // Custom CSS class for slide element
     slideClass: "",
