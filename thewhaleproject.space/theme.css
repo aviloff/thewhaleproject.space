@@ -10,6 +10,17 @@ body,html{height:100%}
 .section.section-black a:hover,.gr_link a:hover{color:#2ecc71}
 @media (max-width:991px) {
 .gr_link a{color:#11abf9}
+.mpl div, .mpl span{
+/* -moz-border-radius:30px; */
+  /* -webkit-border-radius:30px; */
+  /* border-radius:20px; */
+  border: #solid 10px #000;
+  background-color: rgba(0,0,0,0.4);
+  width:100%;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+.mpb {background-image: url('https://i.imgur.com/tCnwo6i.gif')!important;}
 }
 .section.section-black .section-head p{opacity:1}
 .section.section-padding-top-more{padding-top:150px}
@@ -991,11 +1002,15 @@ footer{padding:40px 0 50px}
 70%{transition-timing-function:cubic-bezier(0.755,0.05,0.855,0.06);-webkit-transform:translate3d(0,-4px,0);transform:translate3d(0,-4px,0)}
 90%{-webkit-transform:translate3d(0,-2px,0);transform:translate3d(0,-2px,0)}
 }
-.op a{opacity:.9}
+/* .op a{opacity:.9} */
 .op a:hover{opacity:1}
 .op2 a:hover{opacity:.8}
 .op2 a{opacity:.6}
 .oop{background-color:rgba(0,0,0,0)}
 .oop_text{color:#fdfdfd!important}
 .parallax{height:100%;background-attachment:fixed;background-position:center;background-repeat:no-repeat;background-size:cover}
-@media (min-width:768px) {.gr_link a{color:#4dadff}}
+/* @media (max-width:768px) {.gr_link a{color:#4dadff};  border-radius:30px;  border: #solid 10px #000;  background-color: rgba(105,100,100,0.8);  width:80%;  margin-left: auto */
+}
+
+
+/* @media (min-width:768px) {.main-page-background{background-image: url('https://i.imgur.com/tCnwo6i.gif')}!important} */
