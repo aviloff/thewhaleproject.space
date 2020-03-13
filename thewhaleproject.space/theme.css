@@ -970,6 +970,8 @@ footer{padding:40px 0 50px}
 .social-networks.bounce a:hover,.social-networks.bounce a:focus{-webkit-animation:bounce 1s;animation:bounce 1s}
 .social-networks .icon-linkedin:after{content:"\eaca"}
 .social-networks .icon-linkedin:hover:before,.social-networks .icon-linkedin:focus:before{background:#0077b5;color:#fdfdfd}
+.social-networks .icon-write:after{content:"\e905"}
+.social-networks .icon-write:hover:before,.social-networks .icon-write:focus:before{background:#a6ce39;color:#fdfdfd}
 .social-networks .icon-facebook:after{content:"\ea90";color:#f0f5ff}
 .social-networks .icon-facebook:hover:before,.social-networks .icon-facebook:focus:before{background:#3a5897;color:#fdfdfd}
 .social-networks .icon-twitter:after{content:"\ea96";color:#ccdcff}
