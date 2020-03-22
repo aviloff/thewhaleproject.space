@@ -1,6 +1,17 @@
-# twp.space
- TWP website
+# The Whale Project website
 
-images are loaded from imgur.com
+http://thewhaleproject.space
 
-pdfs, zips are not updated here
+http://twp.space
+
+## Help with 
+
+- ssl certificates
+- loading speed optimisation
+- design
+is welcome.
+
+
+Images are loaded from imgur.com.
+
+Pdfs, zips are not updated here.
