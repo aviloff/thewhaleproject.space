@@ -2,14 +2,14 @@
 
 http://thewhaleproject.space
 
-http://twp.space
 
-## Help with 
+## Nearest objectives
 
+
+- design
 - ssl certificates
 - loading speed optimisation
-- design
-is welcome.
+
 
 
 Images are loaded from imgur.com.
